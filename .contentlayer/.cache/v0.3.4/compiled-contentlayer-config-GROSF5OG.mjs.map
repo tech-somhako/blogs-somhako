@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../contentlayer.config.ts"],
+  "sourcesContent": ["import { makeSource, DocumentTypes } from \"@contentlayer/source-files\"\r\n\r\nconst contentDirPath = \"content\"\r\n\r\nconst args = {\r\n  contentDirPath,\r\n  documentTypes: {} as DocumentTypes, // Replace {} with your actual document types if you have any\r\n}\r\n\r\nexport default makeSource(args)\r\n"],
+  "mappings": ";AAAA,SAAS,kBAAiC;AAE1C,IAAM,iBAAiB;AAEvB,IAAM,OAAO;AAAA,EACX;AAAA,EACA,eAAe,CAAC;AAAA;AAClB;AAEA,IAAO,8BAAQ,WAAW,IAAI;",
+  "names": []
+}
