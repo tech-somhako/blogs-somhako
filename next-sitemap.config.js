@@ -1,5 +1,5 @@
 
 module.exports = {
-  siteUrl: "https://create-blog-with-nextjs.vercel.app",
+  siteUrl: "https://blogs.somhako.com",
   generateRobotsTxt: true,
 }

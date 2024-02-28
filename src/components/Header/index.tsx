@@ -18,10 +18,10 @@ const Header = () => {
   }
 
   return (
-    <header className="w-full p-4  px-5 md:px-10 flex items-center justify-between">
+    <header className="w-full p-4  px-2 md:px-10 flex items-center justify-between">
       <Logo />
 
-      <button className="inline-block md:hidden z-50" onClick={toggle} aria-label="Hamburger Menu">
+      <button className="inline-block md:hidden z-50 px-4" onClick={toggle} aria-label="Hamburger Menu">
         <div className="w-6 cursor-pointer transition-all ease duration-300">
           <div className="relative">
             <span
